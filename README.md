@@ -70,17 +70,13 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 ## 赞赏 / Support
 
-如果这个项目对你有帮助，欢迎赞赏支持作者继续优化：
-
-- 微信赞赏码：请将图片放到 `docs/sponsor/wechat.png`
-- 支付宝赞赏码：请将图片放到 `docs/sponsor/alipay.png`
-
-> 为避免误放个人收款码，本仓库默认不内置真实赞赏图片。你可以自行上传两张图片后，README 会展示。
+如果这个项目对你有帮助，欢迎赞赏支持作者继续优化。
 
 <p>
   <img src="docs/sponsor/wechat.png" alt="微信赞赏码" width="180" />
-  <img src="docs/sponsor/alipay.png" alt="支付宝赞赏码" width="180" />
 </p>
+
+> 支付宝赞赏码暂未放入仓库；如需展示，可将图片保存为 `docs/sponsor/alipay.png` 后在 README 中追加展示。
 
 ## 安全说明
 
