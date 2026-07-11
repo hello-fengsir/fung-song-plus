@@ -174,10 +174,8 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 如果这个项目对你有帮助，欢迎赞赏支持作者继续优化。
 
 <p>
-  <img src="docs/sponsor/wechat.png" alt="微信赞赏码" width="180" />
+  <img src="docs/sponsor/reward.jpg" alt="赞赏码" width="220" />
 </p>
-
-> 支付宝赞赏码暂未放入仓库；如需展示，可将图片保存为 `docs/sponsor/alipay.png` 后在 README 中追加展示。
 
 ## 安全说明
 
