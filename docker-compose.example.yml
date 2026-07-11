@@ -1,0 +1,33 @@
+services:
+  fung-song-plus-backend:
+    build: ./backend
+    container_name: fung-song-plus-backend
+    restart: unless-stopped
+    ports:
+      - "8893:8000"
+    environment:
+      - NAVIDROME_BASE=${NAVIDROME_BASE:-http://your-navidrome-host:4533}
+      - NAVIDROME_USER=${NAVIDROME_USER:-your_username}
+      - NAVIDROME_PASSWORD=${NAVIDROME_PASSWORD:-your_password}
+      - NAVIDROME_CLIENT=${NAVIDROME_CLIENT:-fung-song-plus}
+      - MUSIC_ROOTS=${MUSIC_ROOTS:-/music}
+      - TZ=${TZ:-Asia/Shanghai}
+    volumes:
+      - ${MUSIC_ROOT_PATH:-./music}:/music:ro
+    networks:
+      - fung-song-plus-net
+
+  fung-song-plus-frontend:
+    build: ./frontend
+    container_name: fung-song-plus-frontend
+    restart: unless-stopped
+    ports:
+      - "8892:80"
+    depends_on:
+      - fung-song-plus-backend
+    networks:
+      - fung-song-plus-net
+
+networks:
+  fung-song-plus-net:
+    driver: bridge
