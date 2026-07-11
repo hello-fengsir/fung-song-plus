@@ -9,16 +9,16 @@ Fung-song Plus 面向家庭 NAS 与私有音乐库场景，提供更适合大屏
 
 ## 预览截图
 
-### 首页 / 曲库门户
+### 首页 / 曲库门户（1920×1080）
 
 <p>
   <img src="docs/screenshots/home.png" alt="Fung-song Plus 首页曲库门户" width="920" />
 </p>
 
-### 大屏播放 / 沉浸式歌词
+### 点开海报后的大屏播放 / 沉浸式歌词（1920×1080）
 
 <p>
-  <img src="docs/screenshots/cinema.png" alt="Fung-song Plus 大屏播放沉浸式歌词界面" width="920" />
+  <img src="docs/screenshots/cinema.png" alt="Fung-song Plus 点开海报后的大屏播放沉浸式歌词界面" width="920" />
 </p>
 
 ## 系统优势
